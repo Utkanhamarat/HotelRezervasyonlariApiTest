@@ -23,3 +23,15 @@ Oturum açma ve yetkilendirme.
 Yeni rezervasyon oluşturma ve bilgilerin doğrulanması.
 Rezervasyon güncelleme ve silme işlemleri.
 Rezervasyon detaylarını sorgulama (tüm rezervasyonlar veya belirli bir rezervasyon).
+-------------------------------------------------------------------------------------------------------
+This project focused on testing an API that manages hotel reservation processes and developing automation processes. Within the scope of the project, I tested user login, reservation creation, update, deletion and query processes. I created test scenarios using Postman and provided a dynamic structure with environment variables. I automated the tests with the Newman tool and created reports in JSON and HTML format. I ensured that these tests were run automatically at regular intervals every Friday using Monitor Runner and that the report results were sent via e-mail.
+
+Skills Gained with the Project: Creating API test scenarios and running automation processes. Automating and reporting tests with Postman and Newman. Developing dynamic and secure test processes using environment variables.
+
+Manual and Automated Tests: API test scenarios were created manually using Postman and verification processes were performed. Tests were automated with the Newman tool and reported in JSON and HTML formats.
+
+Regular Test Runs: Tests were run regularly every Friday using Postman Monitor. Run results were shared via e-mail notifications and detailed reports were added.
+
+Environment Variables: Environment variables are used for dynamic parameters and API key management. The values ​​obtained during the tests (token, reservation ID) are dynamically saved to the environment.
+
+Test Scenarios: Login and authorization. Creating a new reservation and verifying the information. Reservation update and deletion operations. Querying reservation details (all reservations or a specific reservation).
