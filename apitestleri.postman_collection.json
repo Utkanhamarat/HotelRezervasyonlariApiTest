@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "0dfad5ff-d518-4f63-9472-fe1269ddac5e",
+		"name": "apitestleri",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38880535"
+	},
+	"item": [
+		{
+			"name": "collectionget",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Geçerli 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.getpostman.com/collections/38880535-8e73a0ad-55d6-4172-8ecd-17da15c18681?apikey=PMAK-672befd60bc84c00013050bc-736fe87bc46d3f21453ef681e7dd6704f7",
+					"protocol": "https",
+					"host": [
+						"api",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"38880535-8e73a0ad-55d6-4172-8ecd-17da15c18681"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "PMAK-672befd60bc84c00013050bc-736fe87bc46d3f21453ef681e7dd6704f7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Environment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Geçerli 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.getpostman.com/environments/38880535-2a359934-5c5a-4154-84e4-0e5e60288ba0?apikey=PMAK-672befd60bc84c00013050bc-736fe87bc46d3f21453ef681e7dd6704f7",
+					"protocol": "https",
+					"host": [
+						"api",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"environments",
+						"38880535-2a359934-5c5a-4154-84e4-0e5e60288ba0"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "PMAK-672befd60bc84c00013050bc-736fe87bc46d3f21453ef681e7dd6704f7"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

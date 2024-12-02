@@ -1,0 +1,239 @@
+{
+	"id": "955d5b1a-f82a-4788-a8d0-116ac7318812",
+	"name": "Hotel rezervasyonları",
+	"timestamp": "2024-11-24T22:27:47.148Z",
+	"collection_id": "38880535-8e73a0ad-55d6-4172-8ecd-17da15c18681",
+	"folder_id": 0,
+	"environment_id": "38880535-2a359934-5c5a-4154-84e4-0e5e60288ba0",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-24T22:27:44.387Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e4209a9c-cb33-4ffb-a1ee-a8c4cc2f98e9",
+			"name": "Token Oluşturma",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 651,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				651
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "63dc6a89-78d8-4c15-a990-429fdf3a6f5b",
+			"name": "CreateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Geçerli 200": true
+			},
+			"testPassFailCounts": {
+				"Geçerli 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Geçerli 200": true
+				}
+			]
+		},
+		{
+			"id": "e2f07fca-93b4-4de9-afd4-d2f697febe49",
+			"name": "Get Bookingslds",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Geçerli 200": true
+			},
+			"testPassFailCounts": {
+				"Geçerli 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				302
+			],
+			"allTests": [
+				{
+					"Geçerli 200": true
+				}
+			]
+		},
+		{
+			"id": "b429f081-1168-450d-b970-6a7c60c11363",
+			"name": "GetBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/3752",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "382ef5fb-5d57-494e-98bd-ca3126c6b95c",
+			"name": "UpdateBook",
+			"url": "https://restful-booker.herokuapp.com/booking/3752",
+			"time": 153,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Geçerli 200": true
+			},
+			"testPassFailCounts": {
+				"Geçerli 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"Geçerli 200": true
+				}
+			]
+		},
+		{
+			"id": "ca159880-ba4c-42d4-b63e-756ada0b2889",
+			"name": "PUpdate Booking",
+			"url": "https://restful-booker.herokuapp.com/booking/3752",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Geçerli 200": true
+			},
+			"testPassFailCounts": {
+				"Geçerli 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				148
+			],
+			"allTests": [
+				{
+					"Geçerli 200": true
+				}
+			]
+		},
+		{
+			"id": "99d2a01f-2028-48fd-a6ae-fb14798331e4",
+			"name": "Delete Book",
+			"url": "https://restful-booker.herokuapp.com/booking/3752",
+			"time": 153,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Geçerli 200": true
+			},
+			"testPassFailCounts": {
+				"Geçerli 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				153
+			],
+			"allTests": [
+				{
+					"Geçerli 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1705,
+	"collection": {
+		"requests": [
+			{
+				"id": "e4209a9c-cb33-4ffb-a1ee-a8c4cc2f98e9",
+				"method": "POST"
+			},
+			{
+				"id": "63dc6a89-78d8-4c15-a990-429fdf3a6f5b",
+				"method": "POST"
+			},
+			{
+				"id": "e2f07fca-93b4-4de9-afd4-d2f697febe49",
+				"method": "GET"
+			},
+			{
+				"id": "b429f081-1168-450d-b970-6a7c60c11363",
+				"method": "GET"
+			},
+			{
+				"id": "382ef5fb-5d57-494e-98bd-ca3126c6b95c",
+				"method": "PUT"
+			},
+			{
+				"id": "ca159880-ba4c-42d4-b63e-756ada0b2889",
+				"method": "PATCH"
+			},
+			{
+				"id": "99d2a01f-2028-48fd-a6ae-fb14798331e4",
+				"method": "DELETE"
+			}
+		]
+	}
+}
